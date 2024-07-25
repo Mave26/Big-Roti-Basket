@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Roti Basket</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ff7043;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 1em;
+            transform: translateY(-50%);
+            height: 50px;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            margin: 0 0 0.5em;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        .contact a {
+            color: #ff7043;
+            text-decoration: none;
+        }
+        .home-highlight {
+            background-color: #fff3e0;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .price-list {
+            list-style: none;
+            padding: 0;
+        }
+        .price-list li {
+            background-color: #ffccbc;
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border-radius: 4px;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.75em 1.5em;
+            color: white;
+            background-color: #ff7043;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Big Roti Basket Logo" class="logo">
+        <h1>Big Roti Basket</h1>
+        <p>Eat fresh Roti anytime and avoid unhealthy alternatives.</p>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Big Roti Basket</h2>
+            <div class="home-highlight">
+                <p>Our roti is made with the freshest ingredients to ensure you eat healthy and stay healthy. Enjoy delicious rotis delivered to your doorstep for free!</p>
+                <ul class="price-list">
+                    <li>6 Roti (Wheat) - ₹59</li>
+                    <li>12 Roti (Wheat) - ₹99</li>
+                </ul>
+                <a href="https://wa.me/8286826924" class="cta-button">Order Now on WhatsApp</a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For orders and inquiries, contact us on WhatsApp:</p>
+            <p class="contact"><a href="https://wa.me/8286826924">WhatsApp: 8286826924</a></p>
+        </section>
+    </main>
+</body>
+</html>
